@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XNBGestureSecurityView : UIView
+@interface MGestureSecurityView : UIView
 
 /**
  *  返回手势的密码

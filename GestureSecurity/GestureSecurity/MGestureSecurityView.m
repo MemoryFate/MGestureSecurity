@@ -6,10 +6,10 @@
 //  Copyright © 2018年 MemoryFate. All rights reserved.
 //
 
-#import "XNBGestureSecurityView.h"
+#import "MGestureSecurityView.h"
 #import "XNBDotView.h"
 
-@interface XNBGestureSecurityView ()
+@interface MGestureSecurityView ()
 
 /**
  *  用于存放视图的数组
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation XNBGestureSecurityView
+@implementation MGestureSecurityView
 {
     //  当前坐标点
     CGPoint _currentPoint;
