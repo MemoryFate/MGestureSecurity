@@ -1,8 +1,8 @@
 //
 //  UIView+Frame.h
-//  XNBasicFramework
+//  MasicFramework
 //
-//  Created by 江红胡 on 2017/9/26.
+//  Created by MemoryFate on 2018/5/16.
 //
 
 #import <UIKit/UIKit.h>

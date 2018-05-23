@@ -1,1 +1,0 @@
-../../../XNBasicUIKit/XNBasicUIKit/Classes/AlertView/XNBAlertView.h

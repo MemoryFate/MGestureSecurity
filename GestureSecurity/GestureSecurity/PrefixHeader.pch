@@ -10,8 +10,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import <XNBasicMacros.h>
-#import <UIView+Frame.h>
+
+#import "UIView+Frame.h"
 #import <PureLayout.h>
 
 #endif /* PrefixHeader_pch */

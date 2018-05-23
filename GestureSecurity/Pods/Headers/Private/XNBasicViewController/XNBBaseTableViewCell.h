@@ -1,1 +1,0 @@
-../../../XNBasicViewController/XNBasicViewController/Classes/BaseTableViewController/XNBBaseTableViewCell.h

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2CBA1E73A8E703A53495356070BE3997"
+               BlueprintIdentifier = "3D6CDF6A931BC256DBEC3F40EF1B2349"
                BlueprintName = "Pods-GestureSecurity"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-GestureSecurity.a">

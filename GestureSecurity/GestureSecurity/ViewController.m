@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "XNBGestureSecurityView.h"
+#import "MGestureSecurityView.h"
+
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
 
 @interface ViewController ()
 
@@ -18,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    XNBGestureSecurityView *view = [[XNBGestureSecurityView alloc] initWithFrame:CGRectMake(0, 0, kXNBScreenWidth, kXNBScreenWidth)];
+    MGestureSecurityView *view = [[MGestureSecurityView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenWidth)];
     view.center = self.view.center;
     [self.view addSubview: view];
     

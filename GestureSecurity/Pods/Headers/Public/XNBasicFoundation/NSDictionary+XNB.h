@@ -1,1 +1,0 @@
-../../../XNBasicFoundation/XNBasicFoundation/Classes/NSDictionary/NSDictionary+XNB.h

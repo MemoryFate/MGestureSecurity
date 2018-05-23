@@ -1,1 +1,0 @@
-../../../XNBasicUtilites/XNBasicUtilites/Classes/JsonSerializer/XNBBaseItem.h

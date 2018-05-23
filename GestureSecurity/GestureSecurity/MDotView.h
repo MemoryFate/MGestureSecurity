@@ -1,5 +1,5 @@
 //
-//  XNBDotView.h
+//  MDotView.h
 //  GestureSecurity
 //
 //  Created by MemoryFate on 2018/5/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XNBDotView : UIView
+@interface MDotView : UIView
 
 /**
  *  视图的选中状态

@@ -1,5 +1,5 @@
 //
-//  XNBGestureSecurityView.h
+//  MGestureSecurityView.h
 //  GestureSecurity
 //
 //  Created by MemoryFate on 2018/5/16.

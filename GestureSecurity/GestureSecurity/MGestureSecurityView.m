@@ -1,5 +1,5 @@
 //
-//  XNBGestureSecurityView.m
+//  MGestureSecurityView.m
 //  GestureSecurity
 //
 //  Created by MemoryFate on 2018/5/16.
@@ -7,7 +7,7 @@
 //
 
 #import "MGestureSecurityView.h"
-#import "XNBDotView.h"
+#import "MDotView.h"
 
 @interface MGestureSecurityView ()
 
@@ -49,7 +49,7 @@
     path.lineWidth = 5;
     [[UIColor blueColor] set];
     for (int i = 0; i < self.sequenceAry.count; i++) {
-        XNBDotView *view = (XNBDotView *)self.sequenceAry[i];
+        MDotView *view = (MDotView *)self.sequenceAry[i];
         if (i == 0) {
             [path moveToPoint:view.center];
         }else {
@@ -67,7 +67,7 @@
     for (int i = 0; i < 3; i ++) {
         for (int j = 0; j < 3; j ++) {
             k ++;
-            XNBDotView *view = [[XNBDotView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+            MDotView *view = [[MDotView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
             view.center = CGPointMake(self.width / 6 + self.width / 3 * j, self.height / 6 + self.height / 3 * i);
             view.tag = 1000000 + k;
             [self addSubview: view];
@@ -83,7 +83,7 @@
     
     for (int i = 0; i < self.viewAry.count; i++) {
         
-        XNBDotView *view = (XNBDotView *)self.viewAry[i];
+        MDotView *view = (MDotView *)self.viewAry[i];
         
         //  开始时候判断初始手势是否在点的范围内
         if (CGRectContainsPoint(view.frame, point)) {
@@ -99,7 +99,7 @@
     CGPoint point = [touch locationInView:self];
     _currentPoint = point;
     for (int i = 0; i < self.viewAry.count; i++) {
-        XNBDotView *view = (XNBDotView *)self.viewAry[i];
+        MDotView *view = (MDotView *)self.viewAry[i];
         if (CGRectContainsPoint(view.frame, point) && view.viewEnabled) {
             view.viewEnabled = NO;
             [self.sequenceAry addObject:view];
@@ -115,7 +115,7 @@
     if (self.didFinishBlock) {
         self.didFinishBlock(self.pwdStr);
     }
-    XNBDotView *view = (XNBDotView *)[self.sequenceAry lastObject];
+    MDotView *view = (MDotView *)[self.sequenceAry lastObject];
     _currentPoint = view.center;
     [self setNeedsDisplay];
     [self removeAllPath];
@@ -127,7 +127,7 @@
 - (void)removeAllPath {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         for (int i = 0; i < self.viewAry.count; i++) {
-            XNBDotView *view = (XNBDotView *)self.viewAry[i];
+            MDotView *view = (MDotView *)self.viewAry[i];
             view.viewEnabled = YES;
         }
         [self.sequenceAry removeAllObjects];
