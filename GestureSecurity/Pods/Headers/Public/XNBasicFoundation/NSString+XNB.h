@@ -1,0 +1,1 @@
+../../../XNBasicFoundation/XNBasicFoundation/Classes/NSString/NSString+XNB.h

@@ -1,0 +1,1 @@
+../../../XNBasicUtilites/XNBasicUtilites/Classes/Singleton/XNBSingletonManager.h

@@ -1,0 +1,7 @@
+source 'git@xngit.51nbapi.com:xnios/XNBPodSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GestureSecurity' do
+    pod 'XNBasicViewController'
+    pod 'XNBasicUIKit'
+end

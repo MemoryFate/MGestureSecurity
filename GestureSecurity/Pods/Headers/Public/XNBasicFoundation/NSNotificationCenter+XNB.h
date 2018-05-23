@@ -1,0 +1,1 @@
+../../../XNBasicFoundation/XNBasicFoundation/Classes/NSNotificationCenter/NSNotificationCenter+XNB.h

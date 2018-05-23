@@ -1,0 +1,1 @@
+../../../XNBasicUtilites/XNBasicUtilites/Classes/UIDevice/UIDevice+XNB.h

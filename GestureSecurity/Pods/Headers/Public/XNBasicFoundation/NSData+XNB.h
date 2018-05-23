@@ -1,0 +1,1 @@
+../../../XNBasicFoundation/XNBasicFoundation/Classes/NSData/NSData+XNB.h

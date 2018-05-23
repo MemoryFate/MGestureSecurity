@@ -1,0 +1,285 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FLAnimatedImage (1.0.12)
+  - MJRefresh (3.1.15.3)
+  - PureLayout (3.0.2)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - WebViewJavascriptBridge (6.0.3)
+  - XNBasicFoundation (0.2.2):
+    - XNBasicFoundation/NSArray (= 0.2.2)
+    - XNBasicFoundation/NSData (= 0.2.2)
+    - XNBasicFoundation/NSDate (= 0.2.2)
+    - XNBasicFoundation/NSDictionary (= 0.2.2)
+    - XNBasicFoundation/NSNotificationCenter (= 0.2.2)
+    - XNBasicFoundation/NSString (= 0.2.2)
+  - XNBasicFoundation/NSArray (0.2.2)
+  - XNBasicFoundation/NSData (0.2.2)
+  - XNBasicFoundation/NSDate (0.2.2)
+  - XNBasicFoundation/NSDictionary (0.2.2)
+  - XNBasicFoundation/NSNotificationCenter (0.2.2)
+  - XNBasicFoundation/NSString (0.2.2)
+  - XNBasicUIKit (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+    - XNBasicUIKit/ActionSheet (= 0.3.8)
+    - XNBasicUIKit/AlertView (= 0.3.8)
+    - XNBasicUIKit/IconFont (= 0.3.8)
+    - XNBasicUIKit/SegmentView (= 0.3.8)
+    - XNBasicUIKit/UIButton (= 0.3.8)
+    - XNBasicUIKit/UIColor (= 0.3.8)
+    - XNBasicUIKit/UIFont (= 0.3.8)
+    - XNBasicUIKit/UIImage (= 0.3.8)
+    - XNBasicUIKit/UIImageView (= 0.3.8)
+    - XNBasicUIKit/UILabel (= 0.3.8)
+    - XNBasicUIKit/UIScrollView (= 0.3.8)
+    - XNBasicUIKit/UITextField (= 0.3.8)
+    - XNBasicUIKit/UIView (= 0.3.8)
+  - XNBasicUIKit/ActionSheet (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+    - XNBasicUIKit/UIColor
+    - XNBasicUIKit/UIFont
+    - XNBasicUIKit/UIImage
+  - XNBasicUIKit/AlertView (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+    - XNBasicUIKit/UIColor
+    - XNBasicUIKit/UIFont
+    - XNBasicUIKit/UIImage
+  - XNBasicUIKit/IconFont (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/SegmentView (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UIButton (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+    - XNBasicUIKit/UIColor
+  - XNBasicUIKit/UIColor (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UIFont (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UIImage (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UIImageView (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UILabel (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UIScrollView (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+    - XNBasicUIKit/UIView
+  - XNBasicUIKit/UITextField (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUIKit/UIView (0.3.8):
+    - FLAnimatedImage
+    - PureLayout
+    - SDWebImage
+    - XNBasicFoundation
+  - XNBasicUtilites (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+    - XNBasicUtilites/JsonSerializer (= 0.3.4)
+    - XNBasicUtilites/Macros (= 0.3.4)
+    - XNBasicUtilites/NSTimer (= 0.3.4)
+    - XNBasicUtilites/RunTime (= 0.3.4)
+    - XNBasicUtilites/Singleton (= 0.3.4)
+    - XNBasicUtilites/UIApplication (= 0.3.4)
+    - XNBasicUtilites/UIDevice (= 0.3.4)
+  - XNBasicUtilites/JsonSerializer (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+    - XNBasicUtilites/Macros
+    - XNBasicUtilites/RunTime
+  - XNBasicUtilites/Macros (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+  - XNBasicUtilites/NSTimer (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+  - XNBasicUtilites/RunTime (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+  - XNBasicUtilites/Singleton (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+  - XNBasicUtilites/UIApplication (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+  - XNBasicUtilites/UIDevice (0.3.4):
+    - AFNetworking
+    - XNBasicFoundation
+  - XNBasicViewController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBasicViewController/BaseCollectionViewController (= 0.5.5)
+    - XNBasicViewController/BaseNavigationController (= 0.5.5)
+    - XNBasicViewController/BaseTabBarController (= 0.5.5)
+    - XNBasicViewController/BaseTableViewController (= 0.5.5)
+    - XNBasicViewController/BaseViewController (= 0.5.5)
+    - XNBasicViewController/BaseWebViewController (= 0.5.5)
+    - XNBasicViewController/RTRootNavigationController (= 0.5.5)
+    - XNBBaseModel
+  - XNBasicViewController/BaseCollectionViewController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBasicViewController/BaseTableViewController
+    - XNBasicViewController/BaseViewController
+    - XNBBaseModel
+  - XNBasicViewController/BaseNavigationController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBasicViewController/RTRootNavigationController
+    - XNBBaseModel
+  - XNBasicViewController/BaseTabBarController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBBaseModel
+  - XNBasicViewController/BaseTableViewController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBasicViewController/BaseViewController
+    - XNBBaseModel
+  - XNBasicViewController/BaseViewController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBBaseModel
+  - XNBasicViewController/BaseWebViewController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBasicViewController/BaseViewController
+    - XNBBaseModel
+  - XNBasicViewController/RTRootNavigationController (0.5.5):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBBaseModel
+  - XNBBaseModel (0.3.1):
+    - XNBasicFoundation
+    - XNBasicUtilites
+    - XNBBaseModel/RequestModel (= 0.3.1)
+    - XNBBaseModel/ResponseModel (= 0.3.1)
+    - XNBNetwork
+  - XNBBaseModel/RequestModel (0.3.1):
+    - XNBasicFoundation
+    - XNBasicUtilites
+    - XNBBaseModel/ResponseModel
+    - XNBNetwork
+  - XNBBaseModel/ResponseModel (0.3.1):
+    - XNBasicFoundation
+    - XNBasicUtilites
+    - XNBNetwork
+  - XNBNetwork (0.3.2):
+    - AFNetworking
+    - XNBasicFoundation
+    - XNBasicUtilites
+
+DEPENDENCIES:
+  - XNBasicUIKit
+  - XNBasicViewController
+
+SPEC REPOS:
+  "git@xngit.51nbapi.com:xnios/XNBPodSpecs.git":
+    - XNBasicFoundation
+    - XNBasicUIKit
+    - XNBasicUtilites
+    - XNBasicViewController
+    - XNBBaseModel
+    - XNBNetwork
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FLAnimatedImage
+    - MJRefresh
+    - PureLayout
+    - SDWebImage
+    - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  XNBasicFoundation: 54150cad649707618995be0dc3aa4e0c9e68473b
+  XNBasicUIKit: fe068e42a74ad46a2e9d279cfccf6d9458a19774
+  XNBasicUtilites: d56fed314de68ff2f3052230fc60e6ed36df8902
+  XNBasicViewController: 9ceb5911301be7246d9518ee4f6d7206fbb91cd6
+  XNBBaseModel: 394f68764bf9518b4d15e0658ef2fd4a16c82686
+  XNBNetwork: c178f45d040e86cd02e0f639f42abf9b584e44d1
+
+PODFILE CHECKSUM: ac5dd2fd690c71249e2786dc12d304970ff626bc
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,1 @@
+../../../XNBasicViewController/XNBasicViewController/Classes/BaseCollectionViewController/XNBBaseCollectionViewController.h
